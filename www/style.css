@@ -1,0 +1,25 @@
+body, html {
+  height: 100%;
+  display: grid;
+  background-color: rgb(230, 236, 240);
+  font-family: sans-serif;
+}
+
+div {
+  margin: auto;
+  max-width: 550px;
+}
+
+p {
+  margin: 40px 0;
+  line-height: 1.5;
+}
+
+a {
+  text-transform: uppercase;
+  background: #005eb8;
+  color: white;
+  text-decoration: none;
+  padding: 10px;
+  border-radius: 5px;
+}
