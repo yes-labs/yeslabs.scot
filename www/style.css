@@ -19,8 +19,9 @@ p {
   line-height: 1.5;
 }
 
-div {
-  text-align: center;
+#links {
+  display: flex;
+  justify-content: space-around;
 }
 
 a {
