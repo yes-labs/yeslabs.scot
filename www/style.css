@@ -2,17 +2,25 @@ body, html {
   height: 100%;
   display: grid;
   background-color: rgb(230, 236, 240);
-  font-family: sans-serif;
+  font-family: Circular, Helvetica, Arial, sans-serif;;
+  padding: 0;
+  margin: 0;
+  color: #111;
 }
 
-div {
+section {
   margin: auto;
   max-width: 550px;
+  padding: 20px;
 }
 
 p {
   margin: 40px 0;
   line-height: 1.5;
+}
+
+div {
+  text-align: center;
 }
 
 a {
@@ -22,4 +30,9 @@ a {
   text-decoration: none;
   padding: 10px;
   border-radius: 5px;
+  letter-spacing: 1.5px;
+}
+
+a:hover {
+  background: #005eb8CC;
 }
