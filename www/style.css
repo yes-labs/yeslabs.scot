@@ -14,26 +14,25 @@ section {
   padding: 20px;
 }
 
-p {
-  margin: 40px 0;
-  line-height: 1.5;
-}
-
-#links {
+#projects {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
+}
+#projects > div {
+  margin: 1em;
+  flex: 1;
+}
+#projects > div > img {
+  display: block;
+  margin: 0 auto;
+  width: 200px;
 }
 
 a {
-  text-transform: uppercase;
-  background: #005eb8;
-  color: white;
   text-decoration: none;
-  padding: 10px;
-  border-radius: 5px;
-  letter-spacing: 1.5px;
+  color: #005eb8;
 }
 
 a:hover {
-  background: #005eb8CC;
+  opacity: .8;
 }
