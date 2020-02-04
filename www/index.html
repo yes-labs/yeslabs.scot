@@ -10,28 +10,56 @@
 </head>
 
 <body>
-  <section>
 
-    <h1><img src="yeslabs.svg" /></h1>
+  <header>
+    <div>
+      <h1><a href="/"><img src="yeslabs.svg" /></a></h1>
+      <nav id="links">
+        <a href="https://github.com/yes-labs/projects">Github</a> |
+        <a href="https://twitter.com/_yeslabs">Twitter</a> |
+        <a href="https://indy.chat">Slack</a>
+      </nav>
+    </div>
+    <p>Want to get involved with Independence related projects? Here are
+      some projects that could use your help!</p>
+    <p>Below each project is a list of issues, take a look to see if
+      there is anything you might be interested in or feel free to get
+      in touch if you have your own ideas.</p>
+  </header>
 
-    <section id="projects">
-      <div>
-        <img src="indy-chat.png" />
-        <h2><a href="https://indy.chat">Indy Chat</a></h2>
-        <p>A pro independence chat community.</p>
-      </div>
-      <div>
-        <img src="yes-poster.png" />
-        <h2><a href="https://poster.yeslabs.scot">Yes Poster</a></h2>
-        <p>Generate YES posters for your local group.</p>
-      </div>
+  <article id="projects">
+
+    <section data-repo="indy.chat">
+      <h2><a href="https://indy.chat">Indy Chat</a></h2>
+      <p>Public slack channel for Independence and project related discussions.</p>
+      <img src="img/indychat.png" />
+      <ul class="issues">
+        <div class="lds-facebook"><div></div><div></div><div></div></div>
+      </ul>
     </section>
 
-    <div id="links">
-      <a href="https://github.com/yes-labs/projects">Github</a> |
-      <a href="https://twitter.com/_yeslabs">Twitter</a>
-    </div>
+    <section data-repo="yes-poster">
+      <h2><a href="https://poster.yeslabs.scot">Yes Poster</a></h2>
+      <p>Create your own customised YES posters to download / print and share.</p>
+      <img src="img/yes-poster.png" />
+      <ul class="issues">
+        <div class="lds-facebook"><div></div><div></div><div></div></div>
+      </ul>
+    </section>
 
-  </section>
+    <section data-repo="yeslabs.scot">
+      <h2><a href="https://yeslabs.scot">Yeslabs.scot</a></h2>
+      <p>A home for various Independence related websites and projects.</p>
+      <img src="img/yeslabs.png" />
+      <ul class="issues">
+        <div class="lds-facebook"><div></div><div></div><div></div></div>
+      </ul>
+    </section>
+
+  </article>
+
 </body>
+
+<script src="script.js"></script>
+
 </html>
